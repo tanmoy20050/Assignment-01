@@ -89,3 +89,39 @@
     cursor: pointer;
       font-weight: bold;
 }
+
+.section-title{
+
+  font-size: bold;
+  font-weight: 10px;
+  color: #252432 ;
+  text-align: center;
+  margin:;
+}
+.about{
+   max-width: 1140;
+  
+  padding: 130px 150px;
+  background-color: #dce3e3 ;
+  border-radius: 10px ;
+  padding: 20px 20px;
+  margin-top: 20px;
+
+}
+.item-name{
+  font-weight: bold;
+  color: #4E47FF;
+  font-size: 30px;
+  text-align: center;
+ 
+
+
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+
+}
+.about-item p{
+  text-align: center;
+}
