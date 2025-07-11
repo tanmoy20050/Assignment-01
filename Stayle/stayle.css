@@ -189,3 +189,35 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+
+.header {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.logo {
+  font-size: 48px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  line-height: 1.5;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #666;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.menu span {
+  color: #ccc;
+}
