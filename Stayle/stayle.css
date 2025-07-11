@@ -62,6 +62,7 @@
     display: flex;
     margin: auto;
     justify-content: space-between;
+    padding: 20px;
 }
 .pic{
     width: 200px;
@@ -124,4 +125,67 @@
 }
 .about-item p{
   text-align: center;
+}
+body {
+  margin: 0;
+    font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: white;
+}
+
+.left {
+  flex: 1;
+  padding: 40px;
+}
+
+.left h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
+
+.right {
+  flex: 1;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+} 
+
+button:hover {
+  background-color: #0056b3;
 }
