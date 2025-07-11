@@ -221,3 +221,59 @@ button:hover {
 .menu span {
   color: #ccc;
 }
+
+.testimonials {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fdfdfd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.stars {
+  color: #f1c40f;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #222;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
